@@ -14,7 +14,7 @@ public class Menu extends AbstractComponent<Void>{
         System.out.println("*** MENU ***");
         Arrays.stream(ComponentType.values()).map(v->v.getType()
         + " " + v.getComment()).forEach(System.out::println);
-        System.out.println("Nazhmi 9 for exit\n");
+        System.out.println("Push 9 for exit\n");
 
     }
 }

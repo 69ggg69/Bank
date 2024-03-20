@@ -27,12 +27,6 @@ public class Main {
                 }
                 component.draw();
             }
-       /*Repository<BankAccount> repository = new DataBaseAccountRepository(new DataBaseConnector());
-        repository.list().forEach(System.out::println);
-
-        System.out.println("==========================");
-        System.out.println(repository.find(2L));*/
-
 
     }
 }

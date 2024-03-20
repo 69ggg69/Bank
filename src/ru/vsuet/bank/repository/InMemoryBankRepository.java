@@ -24,13 +24,13 @@ public class InMemoryBankRepository implements Repository<BankAccount> {
 
     @Override
     public void save(BankAccount source) {
-        accounts.add(source); //источник
+        accounts.add(source);
     }
 
     @Override
     public void delete(BankAccount target) {
         accounts.remove(target);
-    } //цель
+    }
 
     @Override
     public List<BankAccount> list() {
@@ -43,8 +43,7 @@ public class InMemoryBankRepository implements Repository<BankAccount> {
     }
 
     private void init() {
-      //  accounts.add(BankAccount.of( 1L, "Vatutin K.R.", BigDecimal.valueOf(5667.89)));
-        //accounts.add(BankAccount.of( 2L, "Volkov M.A.",  BigDecimal.valueOf(6757658.987)));
+
     }
      public List<BankAccount> getAccounts() {
         return accounts;
